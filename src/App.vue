@@ -7,6 +7,7 @@
 
 <script>
 import Navbar from '@/components/Navbar'
+console.log(process.env.VUE_APP_APIKEY);
 export default {
   name: 'App',
   components: {
